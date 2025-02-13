@@ -1,0 +1,38 @@
+[
+  {
+    "id": "001",
+   "usuario": "Sebastian",
+   "rol": "Administrador",
+   "contraseña": "12345"
+  },
+  {
+    "id": "002",
+   "usuario": "Iryuu",
+   "rol": "Administrador",
+   "contraseña": "12345"
+  },
+{
+    "id": "003",
+   "usuario": "Bryan",
+   "rol": "Administrador",
+   "contraseña": "12345"
+  },
+  {
+    "id": "001",
+   "usuario": "Sebastian",
+   "rol": "Asesor",
+   "contraseña": "12345"
+  },
+  {
+    "id": "002",
+   "usuario": "Iglesias",
+   "rol": "Asesor",
+   "contraseña": "12345"
+  },
+  {
+    "id": "003",
+   "usuario": "Muñoz",
+   "rol": "Asesor",
+   "contraseña": "12345"
+  }
+]

@@ -1,0 +1,29 @@
+[
+    {
+      "id": "001",
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "cargo": "Gerente",
+      "placa": "WSD123",
+      "fechaRegistro": "2025-01-10",
+      "telefono": "3043542205"
+    },
+    {
+      "id": "002",
+      "nombre": "Maria",
+      "apellido": "Lopez",
+      "cargo": "Asistente",
+      "placa": "JKL123",
+      "fechaRegistro": "2025-01-12",
+      "telefono": "3045989945"
+    },
+    {
+      "id": "003",
+      "nombre": "Carlos",
+      "apellido": "Garcia",
+      "cargo": "Supervisor",
+      "placa": "OPQ456",
+      "fechaRegistro": "2025-01-15",
+      "telefono": "3123456789"
+    }
+  ]

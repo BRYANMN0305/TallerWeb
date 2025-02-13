@@ -1,0 +1,100 @@
+*/* Estilos existentes */
+body {
+    margin: 0;
+}
+
+.title {
+    background-color: #6d0b0b;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #860d0d;
+    text-align: center; /* Centra los elementos del menú */
+}
+
+li {
+    display: inline-block; /* Cambiar de float a inline-block para mantener los elementos en línea */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #874e4e;
+}
+
+.entrance, .leaves {
+    
+    margin: 3%;
+    border: 2px solid black;
+    width: 80%; /* Ajustamos el tamaño para adaptarse en el contenedor flexible */
+    height: 120px;
+    margin-left: 50px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #6d0b0b;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+.side-column {
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    gap: 10px; 
+}
+.map {
+    margin: 3%;
+    width: 93%;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #874e4e;;
+    text-align: center;
+    
+}
+
+.table {
+
+    width: 65%; 
+    height: 280px;
+    margin-right: 59px;
+    margin-top: 12px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #6d0b0b;
+    border: 2px solid black;
+
+}
+
+
+footer {
+    margin-top: 15%;
+    text-align: center;
+    background-color: #6d0b0b;
+    padding: 20px;
+}
+
+.link {
+    color: black;
+}
+

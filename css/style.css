@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(27deg, #dad2d2 50%, #8a1f08 50%);
+}
+
+.form-body {
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 3px #6d0b0b;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #6d0b0b;
+    margin-bottom: 25px;
+}
+
+.form-body input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: #6d0b0b;
+    border: 2px solid #6d0b0b;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+
+}
+
+.form-body input[type="password"] {
+    margin-top: 20px;
+}
+
+.form-body input:hover {
+    transition: 0.3s;
+    border: 1px solid #6d0b0b;
+    color: #6d0b0b;
+}
+
+.form-body input[type="button"] {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    background: transparent;
+    color: #b9c4c6;
+    background-color: #991212;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #6d0b0b;
+    transition: all 0.5s ease;
+}
+
+.form-body button:hover {
+    color: white;
+    border: 2px solid #6d0b0b;
+    background: linear-gradient(#700a0a, #700a0a);
+}
+
+.botonaceptar{
+    background-color: #6d0b0b;
+}
+
+.form-body input[type="button"] {
+    margin-top: 20px;
+}
